@@ -1,0 +1,116 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue Dec 24 14:27:05 2024
+[*]
+[dumpfile] "C:\Users\kisho\OneDrive\Desktop\verilog\riscv\Single Cycle.vcd"
+[dumpfile_mtime] "Tue Dec 24 14:18:51 2024"
+[dumpfile_size] 5761
+[savefile] "C:\Users\kisho\OneDrive\Desktop\verilog\waveform singlecycle.gtkw"
+[timestart] 0
+[size] 1536 793
+[pos] -1 -1
+*-6.051716 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Single_cylce_Top_tb.
+[treeopen] Single_cylce_Top_tb.Single_cycle_Top.
+[treeopen] Single_cylce_Top_tb.Single_cycle_Top.control_unit_top.
+[sst_width] 197
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 221
+@28
+Single_cylce_Top_tb.clk
+Single_cylce_Top_tb.rst
+@800200
+-instruction memory
+@200
+-
+@22
+Single_cylce_Top_tb.Single_cycle_Top.Instruction_Memory.A[31:0]
+Single_cylce_Top_tb.Single_cycle_Top.Instruction_Memory.RD[31:0]
+@1000200
+-instruction memory
+@800200
+-register file
+@200
+-
+@22
+Single_cylce_Top_tb.Single_cycle_Top.Register_file.A1[4:0]
+Single_cylce_Top_tb.Single_cycle_Top.Register_file.A2[4:0]
+Single_cylce_Top_tb.Single_cycle_Top.Register_file.A3[4:0]
+Single_cylce_Top_tb.Single_cycle_Top.Register_file.RD1[31:0]
+Single_cylce_Top_tb.Single_cycle_Top.Register_file.RD2[31:0]
+Single_cylce_Top_tb.Single_cycle_Top.Register_file.WD3[31:0]
+@28
+Single_cylce_Top_tb.Single_cycle_Top.Register_file.WE3
+@1000200
+-register file
+@800200
+-data memory
+@200
+-
+@22
+Single_cylce_Top_tb.Single_cycle_Top.Data_Memory.A[31:0]
+Single_cylce_Top_tb.Single_cycle_Top.Data_Memory.RD[31:0]
+Single_cylce_Top_tb.Single_cycle_Top.Data_Memory.WD[31:0]
+@28
+Single_cylce_Top_tb.Single_cycle_Top.Data_Memory.WE
+@1000200
+-data memory
+@800200
+-pc
+@200
+-
+@22
+Single_cylce_Top_tb.Single_cycle_Top.PC.PC[31:0]
+Single_cylce_Top_tb.Single_cycle_Top.PC.PCNext[31:0]
+@1000200
+-pc
+@800200
+-control unit
+@200
+-
+@22
+Single_cylce_Top_tb.Single_cycle_Top.control_unit_top.op[6:0]
+@28
+Single_cylce_Top_tb.Single_cycle_Top.control_unit_top.ALUControl[2:0]
+Single_cylce_Top_tb.Single_cycle_Top.control_unit_top.ALUSrc
+Single_cylce_Top_tb.Single_cycle_Top.control_unit_top.ImmSrc[1:0]
+Single_cylce_Top_tb.Single_cycle_Top.control_unit_top.Memwrite
+Single_cylce_Top_tb.Single_cycle_Top.control_unit_top.PCSrc
+Single_cylce_Top_tb.Single_cycle_Top.control_unit_top.RegWrite
+Single_cylce_Top_tb.Single_cycle_Top.control_unit_top.ResultSrc
+Single_cylce_Top_tb.Single_cycle_Top.control_unit_top.funct3[2:0]
+@1000200
+-control unit
+@800200
+-sign extend
+@200
+-
+@22
+Single_cylce_Top_tb.Single_cycle_Top.Sign_Extend.in[31:0]
+Single_cylce_Top_tb.Single_cycle_Top.Sign_Extend.imm_ext[31:0]
+@1000200
+-sign extend
+@800200
+-alu
+@200
+-
+@22
+Single_cylce_Top_tb.Single_cycle_Top.ALU.A[31:0]
+Single_cylce_Top_tb.Single_cycle_Top.ALU.B[31:0]
+Single_cylce_Top_tb.Single_cycle_Top.ALU.Result[31:0]
+@1000200
+-alu
+@800200
+-pc adder
+@200
+-
+@23
+Single_cylce_Top_tb.Single_cycle_Top.PC_Adder.a[31:0]
+@22
+Single_cylce_Top_tb.Single_cycle_Top.PC_Adder.b[31:0]
+Single_cylce_Top_tb.Single_cycle_Top.PC_Adder.c[31:0]
+@1000200
+-pc adder
+[pattern_trace] 1
+[pattern_trace] 0
